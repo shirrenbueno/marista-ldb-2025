@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirren Pelisson Dembiski Bueno - Curriculum e Carta de Apresentação</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400;500&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --marista-blue: #1A2343;
+            --marista-gray: #DADDE5;
+            --marista-cyan: #00BCD4;
+            --marista-bg: #F5F7FA;
+        }
+        
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--marista-bg);
+            line-height: 1.6;
+        }
+        
+        .montserrat-bold {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        
+        .raleway-medium {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+        }
+        
+        .marista-blue { color: var(--marista-blue); }
+        .marista-cyan { color: var(--marista-cyan); }
+        .bg-marista-blue { background-color: var(--marista-blue); }
+        .bg-marista-gray { background-color: var(--marista-gray); }
+        .bg-marista-cyan { background-color: var(--marista-cyan); }
+        
+        .section-divider {
+            background: linear-gradient(90deg, var(--marista-blue) 0%, var(--marista-cyan) 100%);
+            height: 4px;
+        }
+        
+        .contact-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .contact-icon:hover {
+            transform: translateY(-2px);
+            color: var(--marista-cyan);
+        }
+        
+        .skill-tag {
+            background: linear-gradient(135deg, var(--marista-gray) 0%, #f0f1f5 100%);
+            border-left: 3px solid var(--marista-cyan);
+        }
+        
+        .experience-card {
+            border-left: 4px solid var(--marista-blue);
+            transition: all 0.3s ease;
+        }
+        
+        .experience-card:hover {
+            border-left-color: var(--marista-cyan);
+            transform: translateX(4px);
+        }
+        
+        .carta-section {
+            background: linear-gradient(135deg, #ffffff 0%, var(--marista-bg) 100%);
+            border: 1px solid var(--marista-gray);
+        }
+        
+        @media print {
+            body { 
+                background: white !important; 
+                font-size: 12px;
+            }
+            .no-print { display: none !important; }
+            .section-divider { 
+                background: var(--marista-blue) !important;
+                print-color-adjust: exact;
+            }
+            .marista-cyan { color: #333 !important; }
+            .experience-card:hover { transform: none; }
+            .contact-icon:hover { transform: none; }
+        }
+        
+        .qr-code {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border: 2px solid var(--marista-blue);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl">
+        <!-- Header Section -->
+        <header class="bg-marista-blue text-white p-8">
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+                <div class="flex-1 mb-6 lg:mb-0">
+                    <h1 class="montserrat-bold text-4xl lg:text-5xl mb-2">SHIRREN PELISSON</h1>
+                    <h2 class="montserrat-bold text-2xl lg:text-3xl mb-4 text-gray-200">DEMBISKI BUENO</h2>
+                    
+                    <div class="space-y-2 text-lg">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt w-6 text-center marista-cyan"></i>
+                            <span class="ml-3">Londrina, BRASIL</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-home w-6 text-center marista-cyan"></i>
+                            <span class="ml-3">Rua Cristiano Machado, 124, ap. 302, Campo Belo – CEP 86062-000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Icons -->
+                    <div class="flex space-x-6 mt-6 no-print">
+                        <a href="https://www.linkedin.com/in/shirren-bueno-47513549" target="_blank" class="contact-icon text-2xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:shirrenbueno@gmail.com" class="contact-icon text-2xl">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/5541991240178" target="_blank" class="contact-icon text-2xl">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- QR Code -->
+                <div class="flex flex-col items-center">
+                    <div class="qr-code mb-3">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://www.linkedin.com/in/shirren-bueno-47513549" alt="QR Code LinkedIn" class="w-full h-full object-contain">
+                    </div>
+                    <p class="text-sm text-gray-300 text-center">LinkedIn Profile</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="section-divider"></div>
+
+        <!-- Objective Section -->
+        <section class="p-8">
+            <h2 class="montserrat-bold text-3xl marista-blue mb-6 flex items-center">
+                <i class="fas fa-bullseye marista-cyan mr-4"></i>
+                OBJETIVO
+            </h2>
+            <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-marista-cyan">
+                <p class="text-xl raleway-medium marista-blue">Candidatar-me à vaga de "Coordenador de Atividades Extracurriculares".</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="p-8 bg-gray-50">
+            <h2 class="montserrat-bold text-3xl marista-blue mb-8 flex items-center">
+                <i class="fas fa-briefcase marista-cyan mr-4"></i>
+                EXPERIÊNCIA PROFISSIONAL
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Experience 1 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">PROPRIETÁRIA, GERENTE DE PROJETOS E PRODUTORA DE EVENTOS</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2011 – Atual</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">B.Yond Produções e Operações</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Lidero equipes multidisciplinares para entregar soluções inovadoras e projetos customizados no mercado brasileiro.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Colaboro com marcas renomadas como Vivo/Telefônica, Petrobrás, Diageo, Coca-Cola, Seara, Inter etc.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Implemento estratégias de marketing, eventos, finanças, novos negócios e parcerias.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Supero as expectativas dos clientes e atendo com excelência às necessidades dos usuários finais.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Participo ativamente de negociações em diversos nichos de mercado.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Crio, gerencio e executo projetos sob medida na área corporativa e cultural.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">DIRETORA DE OPERAÇÕES, GERENTE DE PRODUTO E CONSELHEIRA</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2015 – 2017</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">DiskIngressos – Ticketeira</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Lancei e monitorei projetos em todos os departamentos da empresa, identificando problemas e oportunidades.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Implementei processos mais eficientes, forneci treinamento e introduzi novas práticas.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Resolvi desafios diários e colaborei com clientes para desenvolver soluções eficazes (hands-on).</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Pesquisei e adotei tecnologias emergentes para otimização.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">CHEFE DE SUPORTE TÉCNICO E ADMINISTRATIVO</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2010 – 2010</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">SAM – Secretaria Municipal Antidrogas – Prefeitura de Curitiba</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Coordenei sistemas administrativos e fluxos de trabalho, aprimorando a comunicação e organização.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Desenvolvi procedimentos para agilizar processos de trabalho para aumentar a eficiência.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">GERENTE DE PROJETOS, PRODUTORA DE EVENTOS E CONSELHEIRA</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2008 – 2009</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">DiskIngressos – Ticketeira</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Liderei equipe multidisciplinar para desenvolver um sistema personalizado de vendas e gestão.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Coordenei a venda de ingressos no Teatro Positivo, um dos maiores teatros da América Latina.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Prestei suporte e assessoria às empresas produtoras, garantindo o bom andamento do evento.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 5 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">GERENTE DE PROJETOS E PRODUTORA DE EVENTOS</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2007 – 2008</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">FOXPROMO - Marketing e Eventos</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Criei e desenvolvi soluções em Live Marketing, Endomarketing e Eventos para empresas.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Negociei com fornecedores, gerenciei o atendimento ao cliente e liderei equipes.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 6 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">ASSISTENTE DE EXPORTAÇÃO E IMPORTAÇÃO</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2006 – 2006</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">Star Trade – Exportação e Importação</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Negociei e coordenei fretes, contratos de câmbio e pagamentos internacionais.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Prestei atendimento à clientes nacionais e estrangeiros.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 7 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">ASSISTENTE ADMINISTRATIVA</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2001 – 2001</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">Renault do Brasil S.A.</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Assessorei o Diretor da Cadeia de Suprimentos e RH Mercosul, dando suporte aos gerentes de projetos de Segurança Patrimonial, Gestão de Frotas e Logística Administrativa.</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Coletei e analisei dados para elaboração de relatórios para tomada de decisão.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 8 -->
+                <div class="experience-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                        <h3 class="raleway-medium text-xl marista-blue">AGENTE CENSITÁRIA SUPERVISORA</h3>
+                        <span class="bg-marista-cyan text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 sm:mt-0">2000 – 2000</span>
+                    </div>
+                    <h4 class="text-lg font-semibold marista-cyan mb-4">IBGE – Instituto Brasileiro de Geografia e Estatística</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Treinei e gerenciei equipe de campo</li>
+                        <li class="flex items-start"><i class="fas fa-check-circle marista-cyan mt-1 mr-3"></i>Trabalhei na coleta de dados, análises e correção de vieses.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="p-8">
+            <h2 class="montserrat-bold text-3xl marista-blue mb-8 flex items-center">
+                <i class="fas fa-graduation-cap marista-cyan mr-4"></i>
+                EDUCAÇÃO
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-university marista-cyan mr-3"></i>
+                    <span class="font-semibold">Tecnólogo em Gestão de Eventos e Hospitalidade</span><br>
+                    <span class="text-gray-600">Universidade Anhembi Morumbi</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-drafting-compass marista-cyan mr-3"></i>
+                    <span class="font-semibold">Arquitetura e Urbanismo</span><br>
+                    <span class="text-gray-600">Universidade Tuiuti do Paraná</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-chart-line marista-cyan mr-3"></i>
+                    <span class="font-semibold">Tecnólogo em Marketing</span><br>
+                    <span class="text-gray-600">Universidade Estácio</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-globe marista-cyan mr-3"></i>
+                    <span class="font-semibold">Administração de Empresas – Comércio Exterior</span><br>
+                    <span class="text-gray-600">Universidade Positivo</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Sections -->
+        <section class="p-8 bg-gray-50">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Software Skills -->
+                <div>
+                    <h2 class="montserrat-bold text-2xl marista-blue mb-6 flex items-center">
+                        <i class="fas fa-laptop-code marista-cyan mr-3"></i>
+                        SOFTWARES E PROGRAMAÇÃO
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="raleway-medium font-semibold marista-blue mb-2">Avançado</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Word</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Excel</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PowerPoint</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Canva</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">ChatGPT</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Genspark</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Manus</span>
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Copilot</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="raleway-medium font-semibold marista-blue mb-2">Intermediário</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Notion</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Revit</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">AutoCAD</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">MS Project</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Asana</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Power BI</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Access</span>
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">SQL</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="raleway-medium font-semibold marista-blue mb-2">Básico</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Google Earth Engine</span>
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Java</span>
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Salesforce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div>
+                    <h2 class="montserrat-bold text-2xl marista-blue mb-6 flex items-center">
+                        <i class="fas fa-language marista-cyan mr-3"></i>
+                        IDIOMAS
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="skill-tag p-3 rounded-lg flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i>
+                            <div>
+                                <span class="font-semibold">Português</span>
+                                <span class="text-gray-600 ml-2">Nativo</span>
+                            </div>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg flex items-center">
+                            <i class="fas fa-star text-green-500 mr-3"></i>
+                            <div>
+                                <span class="font-semibold">Inglês</span>
+                                <span class="text-gray-600 ml-2">Proficiente</span>
+                            </div>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg flex items-center">
+                            <i class="fas fa-star text-blue-500 mr-3"></i>
+                            <div>
+                                <span class="font-semibold">Espanhol</span>
+                                <span class="text-gray-600 ml-2">Intermediário</span>
+                            </div>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg flex items-center">
+                            <i class="fas fa-star text-gray-400 mr-3"></i>
+                            <div>
+                                <span class="font-semibold">Francês, Italiano</span>
+                                <span class="text-gray-600 ml-2">Básico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Competências -->
+                <div>
+                    <h2 class="montserrat-bold text-2xl marista-blue mb-6 flex items-center">
+                        <i class="fas fa-star marista-cyan mr-3"></i>
+                        COMPETÊNCIAS E VALORES
+                    </h2>
+                    <div class="space-y-3">
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-heart marista-cyan mr-3"></i>
+                            <span>Integridade, Ética e Coerência</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-handshake marista-cyan mr-3"></i>
+                            <span>Negociações e Relações Públicas</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-network-wired marista-cyan mr-3"></i>
+                            <span>Comunicativa e Netweaver, com amplo networking</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-clock marista-cyan mr-3"></i>
+                            <span>Gestão e Organização do Tempo</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-chart-bar marista-cyan mr-3"></i>
+                            <span>Orientada por dados, pensamento crítico e proatividade</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-sync-alt marista-cyan mr-3"></i>
+                            <span>Flexibilidade e Adaptabilidade</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-tools marista-cyan mr-3"></i>
+                            <span>Solucionadora de Problemas (Hands-On) com foco em Melhoria Contínua</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-lightbulb marista-cyan mr-3"></i>
+                            <span>Entusiasta de Inovação e Tecnologia, Curiosa e Autodidata</span>
+                        </div>
+                        <div class="skill-tag p-3 rounded-lg">
+                            <i class="fas fa-users marista-cyan mr-3"></i>
+                            <span>Neta, filha, ex-aluna e atual mãe Marista</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Activities -->
+        <section class="p-8">
+            <h2 class="montserrat-bold text-3xl marista-blue mb-8 flex items-center">
+                <i class="fas fa-certificate marista-cyan mr-4"></i>
+                ATIVIDADES E CONHECIMENTOS RECENTES
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-palette marista-cyan mr-3"></i>
+                    <span>Agente Cultural – Política e Gestão Culturais (MinC – Escult)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-file-alt marista-cyan mr-3"></i>
+                    <span>Analista e Parecerista de Projetos Culturais (MinC – Escult)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-calculator marista-cyan mr-3"></i>
+                    <span>Prestação de Contas de Propostas Simplificadas – Políticas e Gestão Culturais (MinC – Escult)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-paper-plane marista-cyan mr-3"></i>
+                    <span>Submissão de Propostas Simplificadas – Políticas e Gestão Culturais (MinC – Escult)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-pencil-alt marista-cyan mr-3"></i>
+                    <span>Elaboração de Projetos de Propostas Simplificadas – Políticas e Gestão Culturais (MinC – Escult)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-robot marista-cyan mr-3"></i>
+                    <span>Inteligência Artificial e Cultura (MinC – Escult)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-lightbulb marista-cyan mr-3"></i>
+                    <span>Gestão da Inovação na Arte, Arquitetura e Design (UFPR)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-leaf marista-cyan mr-3"></i>
+                    <span>Propriedade Industrial e ESG (UFPR)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-tasks marista-cyan mr-3"></i>
+                    <span>Agile Project Management (Google)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-brain marista-cyan mr-3"></i>
+                    <span>Understanding Artificial Intelligence (DataCamp)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-code marista-cyan mr-3"></i>
+                    <span>Introdução ao Desenvolvimento de Software Moderno (DIO)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-laptop-code marista-cyan mr-3"></i>
+                    <span>Introdução à Programação e Pensamento Computacional (DIO)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-chart-line marista-cyan mr-3"></i>
+                    <span>Google Data Analytics (Google)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-database marista-cyan mr-3"></i>
+                    <span>Intermediate SQL (DataCamp)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-file-excel marista-cyan mr-3"></i>
+                    <span>Mastering Excel Essentials to Enhance Business Value (Illinois Tech)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-chart-pie marista-cyan mr-3"></i>
+                    <span>Managerial Economics: Buyer and Seller Behavior (Illinois Tech)</span>
+                </div>
+                <div class="skill-tag p-4 rounded-lg">
+                    <i class="fas fa-chess marista-cyan mr-3"></i>
+                    <span>Competitive Strategy (Illinois Tech)</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Carta de Apresentação -->
+        <section class="carta-section p-8 m-8 rounded-lg">
+            <h2 class="montserrat-bold text-4xl marista-blue mb-8 text-center flex items-center justify-center">
+                <i class="fas fa-envelope-open marista-cyan mr-4"></i>
+                CARTA DE APRESENTAÇÃO
+            </h2>
+            <h3 class="raleway-medium text-2xl marista-cyan mb-8 text-center">Coordenação de Atividades Complementares – Colégio Marista Londrina</h3>
+            
+            <div class="prose prose-lg max-w-none">
+                <p class="text-lg leading-relaxed mb-6">
+                    Sou uma profissional com trajetória voltada à <strong class="marista-blue">inovação</strong>, <strong class="marista-blue">marketing</strong> e <strong class="marista-blue">gestão de projetos</strong>, com sólida experiência na liderança de equipes multidisciplinares em contextos diversos, especialmente nos setores de eventos e comunicação institucional. Ao longo da minha carreira, desenvolvi habilidades estratégicas como articulação entre diferentes públicos, planejamento de ações com foco em impacto social e construção de pontes entre setores — competências essenciais para o desafio proposto pela vaga.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    Em 2023, idealizei e executei o <strong class="marista-cyan">Tuiuti Summit</strong>, a convite da Universidade Tuiuti do Paraná. O evento, realizado com custo zero, reuniu especialistas, empresas e estudantes em torno de temas como inovação, tecnologia e educação. Essa experiência reforçou minha atuação como agente cultural, conectando saberes e promovendo espaços de diálogo entre academia, mercado e sociedade.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    Sou <strong class="marista-blue">ex-aluna Marista</strong> e <strong class="marista-blue">mãe de aluno Marista</strong>, o que me proporciona uma compreensão profunda dos valores, da missão e da proposta pedagógica da instituição. Tanto eu quanto meu filho somos pessoas com <strong class="marista-cyan">altas habilidades/superdotação</strong>, o que nos aproxima naturalmente de novas metodologias de ensino e abordagens educacionais inovadoras. Além disso, venho de uma família com raízes na educação: meus avós paternos foram professores e minha mãe é bibliotecária aposentada da UTFPR, o que reforça meu vínculo com o universo acadêmico e meu compromisso com a educação como ferramenta de transformação social.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-6">
+                    Acredito que posso contribuir com o <strong class="marista-blue">Marista Brasil</strong> trazendo uma visão estratégica e sensível, aliada à inovação, à diversidade metodológica e à experiência em articulação entre saberes. Meu percurso profissional e pessoal se entrelaça com os valores da instituição — e é nesse ponto de convergência que enxergo potencial para impactar, com consistência e propósito, a formação integral dos educandos.
+                </p>
+                
+                <p class="text-lg leading-relaxed mb-8">
+                    Nesse espírito, gostaria de me reunir com o <strong class="marista-blue">Colégio Marista Londrina</strong> para cocriar caminhos que ampliem a qualidade e relevância das atividades complementares. Vejo oportunidades concretas de atuação, como: desenvolvimento de programas integrados entre esporte, arte e tecnologia; ações de internacionalização que dialoguem com a comunidade; e implementação de indicadores de satisfação e engajamento que fortaleçam a escuta ativa. Mais do que uma candidatura, proponho uma <strong class="marista-cyan">aliança de valores</strong> — uma parceria que nasce do alinhamento entre missão, afeto e visão de futuro.
+                </p>
+            </div>
+        </section>
+
+        <!-- Date -->
+        <div class="p-8 text-right">
+            <p class="text-lg font-semibold marista-blue">Londrina, 23 de julho de 2025.</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-marista-blue text-white p-6 text-center">
+            <p class="raleway-medium text-lg">"Conectando saberes, pessoas e propósitos."</p>
+            <div class="mt-4 no-print">
+                <a href="https://www.linkedin.com/in/shirren-bueno-47513549" target="_blank" class="contact-icon text-xl mr-4">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:shirrenbueno@gmail.com" class="contact-icon text-xl mr-4">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/5541991240178" target="_blank" class="contact-icon text-xl">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
